@@ -6,6 +6,7 @@
 
 body{
   background:black;
+  font-family: sans-serif;
 }
 
 .main-content{
@@ -37,4 +38,53 @@ h1{
 
 h1 > img{
   width:30px;
+}
+
+
+.marker{
+  margin-right: 3px;
+  width:15px;
+  padding-top: 10px;
+}
+
+.entry-location > a{
+  color:grey;
+  margin-left:20px;
+  cursor:pointer;
+}
+
+.location{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.entry-h1{
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 0 20px;
+}
+
+.dates{
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.location-pic{
+  width:275px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.entry{
+  display:flex;
+}
+
+.entry-info{
+  padding-left: 20px;
+}
+
+.description{
+  font-size: 13px;
+  line-height: 20px;
 }
