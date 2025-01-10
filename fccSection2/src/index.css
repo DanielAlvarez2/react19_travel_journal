@@ -78,6 +78,7 @@ h1 > img{
 
 .entry{
   display:flex;
+  margin:25px 0;
 }
 
 .entry-info{
